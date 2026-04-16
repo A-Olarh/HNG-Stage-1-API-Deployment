@@ -5,7 +5,7 @@ A lightweight REST API built with Node.js + Express, deployed on an Azure VPS us
 🚀 Live Deployment
 
 🔗 Base URL:
-https://ablackgirlchild.24-7.ro
+http://102.37.23.222
 
 📡 API Endpoints
 
@@ -31,20 +31,32 @@ GET /me
 
 🛠️ Run Locally
 
-Install dependencies
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/A-Olarh/your-repo-name.git](https://github.com/A-Olarh/your-repo-name.git)
+   cd your-repo-name
+
+2. Install dependencies:
+
+Bash
 npm install
 
-Start server
+3. Start the server:
+
+Bash
 node index.js
 
-Test
-curl http://localhost:3000/
+4. Test the endpoints:
+
+Bash
+curl http://localhost:3000/me
+
 
 ⚙️ Architecture
 
 Internet
   ↓
-HTTPS (443) -Nginx
+HTTP (80) -Nginx
   ↓
 Reverse Proxy
   ↓
@@ -61,7 +73,6 @@ Express
 Nginx
 PM2
 Azure VPS
-Let’s Encrypt SSL
 
 👤 Author
 GitHub: https://github.com/A-Olarh

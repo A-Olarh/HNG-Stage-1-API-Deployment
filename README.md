@@ -2,12 +2,12 @@
 
 A lightweight REST API built with Node.js + Express, deployed on an Azure VPS using PM2, Nginx reverse proxy, and HTTPS via Let’s Encrypt.
 
-🚀 Live Deployment
+🚀 **Live Deployment**
 
 🔗 Base URL:
 http://102.37.23.222
 
-📡 API Endpoints
+📡 **API Endpoints
 
 GET /
 
@@ -29,30 +29,32 @@ GET /me
   "github": "https://github.com/A-Olarh"
 }
 
-🛠️ Run Locally
+🛠️ **Run Locally**
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/A-Olarh/your-repo-name.git](https://github.com/A-Olarh/your-repo-name.git)
-   cd your-repo-name
+1. Clone the repository:
+```bash
+   git clone https://github.com/A-Olarh/HNG-Stage-1-API-Deployment.git
+   cd HNG-Stage-1-API-Deployment
+```
+
 
 2. Install dependencies:
 
-Bash
+```bash
 npm install
-
+```
 3. Start the server:
 
-Bash
+```bash
 node index.js
-
+```
 4. Test the endpoints:
 
-Bash
+```bash
 curl http://localhost:3000/me
+```
 
-
-⚙️ Architecture
+⚙️ **Architecture**
 
 Internet
   ↓
@@ -64,16 +66,16 @@ Node.js API (PM2)
   ↓
 Azure VM
 
-⚙️ Environment Variables
+⚙️ **Environment Variables**
 PORT=3000
 
-🔐 Tech Stack
+🔐 **Tech Stack**
 Node.js
 Express
 Nginx
 PM2
 Azure VPS
 
-👤 Author
+👤 **Author**
 GitHub: https://github.com/A-Olarh
 

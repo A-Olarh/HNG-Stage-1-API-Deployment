@@ -8,6 +8,7 @@ A lightweight REST API built with Node.js + Express, deployed on an Azure VPS us
 https://ablackgirlchild.24-7.ro
 
 📡 API Endpoints
+
 GET /
 {
   "message": "API is running"
@@ -24,13 +25,18 @@ GET /me
 }
 
 🛠️ Run Locally
+
 Install dependencies
 npm install
+
 Start server
 node index.js
+
 Test
 curl http://localhost:3000/
+
 ⚙️ Architecture
+
 Internet
   ↓
 HTTPS (443) -Nginx
@@ -51,6 +57,7 @@ Nginx
 PM2
 Azure VPS
 Let’s Encrypt SSL
+
 👤 Author
 GitHub: https://github.com/A-Olarh
 

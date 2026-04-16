@@ -10,14 +10,19 @@ https://ablackgirlchild.24-7.ro
 📡 API Endpoints
 
 GET /
+
 {
   "message": "API is running"
 }
+
 GET /health
+
 {
   "message": "healthy"
 }
+
 GET /me
+
 {
   "name": "Ayanloye Bushra Olaitan",
   "email": "ayanloyeola@gmail.com",
